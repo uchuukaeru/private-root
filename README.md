@@ -10,9 +10,11 @@ dotnet-SDK-6.0
 ## プログラム中に定義されている関数と構造体 -function & struct-
 ### namespace
 proots
+<hr>
 
 ### class
 proots
+<hr>
 
 ### 構造体  -struct-
 #### proots.message
@@ -32,6 +34,7 @@ message構造体のmessを返す関数
 message構造体のlistを返す関数
 引数:なし
 返り値:int型リスト
+<hr>
 
 ### 関数    -function-
 #### proots.Main()
