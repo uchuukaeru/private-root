@@ -165,6 +165,7 @@ namespace proots{
                     }
                     test[n]=m;
                 }
+                //ArrayWriteLine_int(test);
                 //proots.ArrayWriteLine_int(test);
                 if(flag)    roots.Add(it);
             }
