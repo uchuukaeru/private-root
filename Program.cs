@@ -126,7 +126,7 @@ namespace proots{
             return(mess);
         }
         
-        private static List<int> roots_v2(int num){
+        public static List<int> roots_v2(int num){
             List<int> roots=new List<int>();
             int numt=num-1;
 
@@ -146,7 +146,7 @@ namespace proots{
             return(roots);
         }
 
-        private static List<int> roots_v3(int num){
+        public static List<int> roots_v3(int num){
             List<int> roots=new List<int>();
             int numt=num-1;
 
@@ -212,7 +212,7 @@ namespace proots{
             return(m);
         }
 
-        private static bool prime(int num){
+        public static bool prime(int num){
             for(int i=2;i<num;i++)  if(num%i==0)    return(false);
             return(true);
         }
